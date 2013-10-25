@@ -1,31 +1,33 @@
 ## Sinopse
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+Esta é a primeira versão de uma solução web multidispositivo para o 2º Concurso de Aplicativos para Dados Abertos do Ministério da Justiça. Nesta aplicação, consolidamos e apresentamos dados de acidentes de trânsito nas rodovias federais, a partir de bases de dados oficiais, fornecidas pelo próprio Ministério da Justiça. Buscamos facilitar a apresentação da informação, organizada em uma interface minimalista e de fácil utilização.
 
-## Code Example
+## Visualizando a aplicação em produção
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+Esta aplicação está hospedada temporiamente no endereço: ~~http://rodovias.mindexs.com/~~. Faremos a migração desta aplicação para um domínio adequado assim que possível.
 
-## Motivation
+## Motivação
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+Acreditamos na importância do fornecimento de dados pelo Estado, permitindo uma maior interação entre Estado e sociedade. Acreditamos em design simples e intuitivo. Acreditamos na capacidade do Big Data na descoberta de informação a partir de dados brutos.
 
-## Installation
+## Instalação
 
-Provide code examples and explanations of how to get the project.
+O requisito para instalação é um servidor web padrão. Nesta primeira versão, fizemos a carga e consolidação dos dados em bases MySQL. O resultado foi consolidado e transformado em gráficos gerados por JavaScript.
 
-## API Reference
+## Referências e APIs
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+Para geração do template HTML utilizamos o Twitter Bootstrap, para permitir construção rápida de páginas web multidispositivo em um formato padronizado.
 
-## Tests
+Foi utilizado o Google Charts API para geração de gráficos web, por meio de JavaScript.
 
-Describe and show how to run the tests with code examples.
+## Contribuidores
 
-## Contributors
+Contribuiram para este projeto:
+- Alexandre Saippa Cobuccio -> ~~http://br.linkedin.com/pub/alexandre-saippa-cobuccio/8/879/297/~~
+- Daniel Bastos Pereira -> ~~http://br.linkedin.com/in/danielbastospereira/~~
+- Ícaro Ferracini da Silva -> ~~http://br.linkedin.com/in/icaroferracini~~
+- Pedro Carneiro Rodrigues -> ~~http://br.linkedin.com/in/pedrocarneirorodrigues/en~~
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+## Licença
 
-## License
-
-A short snippet describing the license (MIT, Apache, etc.)
+Esta aplicação utiliza a licença GNU Affero General Public License v3.0 (AGPL v3.0), disponível para consulta neste endereço: ~~https://www.gnu.org/licenses/agpl-3.0.html~~
